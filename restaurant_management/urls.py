@@ -24,5 +24,8 @@ urlpatterns = [
     path('api/products/',include('products.urls')),
     path('api/orders/',include('orders.urls')),
     path('menu/', MenuView.as_view(), name='menu')
+    path('admin/', admin.site.urls),
+    path('api/', include('restaurant_management.urls'))
 ]
+
 
