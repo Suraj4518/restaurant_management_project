@@ -28,6 +28,7 @@ def get(self, request):
             "name" = "Naan"
             "description" = "Naam with extra butter"
             "price" = "60"
+            "discount"= "5"
             
         }
 
